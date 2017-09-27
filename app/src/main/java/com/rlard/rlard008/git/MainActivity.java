@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        name = (TextView) findViewById(R.id.name);
+        name = (TextView)findViewById(R.id.name);
 
-        name.setText("Valar Morgalis");
+        name.setText("Game Of thrones tyrian lennister");
+
     }
 }
